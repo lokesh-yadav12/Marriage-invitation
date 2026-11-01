@@ -121,11 +121,11 @@ export default function VenuePage() {
             <div className="space-y-3 text-maroon/80">
               <p className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gold rounded-full mt-2 mr-3 flex-shrink-0" />
-                <span>The venue is located in Gunti village, Bahroi tehsil, Karauli district, Rajasthan</span>
+                <span>The venue is located in Gunti village, Behror tehsil, kotputli-behror district, Rajasthan</span>
               </p>
               <p className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gold rounded-full mt-2 mr-3 flex-shrink-0" />
-                <span>Nearest major city: Karauli (approximately 25-30 km)</span>
+                <span>Nearest major city: Behror (approximately 5-7 km)</span>
               </p>
               <p className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gold rounded-full mt-2 mr-3 flex-shrink-0" />
@@ -142,16 +142,16 @@ export default function VenuePage() {
             <div className="space-y-3 text-maroon/80">
               <p className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gold rounded-full mt-2 mr-3 flex-shrink-0" />
-                <span>Local accommodations are available in Karauli and nearby areas</span>
+                <span>Accommodations are available at host family.</span>
               </p>
               <p className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gold rounded-full mt-2 mr-3 flex-shrink-0" />
                 <span>For accommodation assistance, please contact the host family</span>
               </p>
-              <p className="flex items-start">
+              {/* <p className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gold rounded-full mt-2 mr-3 flex-shrink-0" />
                 <span>Early booking is recommended during the wedding season</span>
-              </p>
+              </p> */}
             </div>
           </div>
         </motion.div>

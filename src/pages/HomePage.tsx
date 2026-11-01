@@ -23,7 +23,7 @@ export default function HomePage() {
   }));
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-maroon via-maroon-dark to-maroon">
+    <div className="relative min-h-screen pt-20 flex items-center justify-center overflow-hidden bg-gradient-to-br from-maroon via-maroon-dark to-maroon">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
@@ -59,45 +59,20 @@ export default function HomePage() {
       <FloralDecoration position="bottom-right" />
 
       {/* Main Content */}
-      <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
-        {/* Ornamental Frame */}
-        <motion.div
-          initial={{ pathLength: 0, opacity: 0 }}
-          animate={{ pathLength: 1, opacity: 1 }}
-          transition={{ duration: 2, ease: 'easeInOut' }}
-          className="absolute inset-0 pointer-events-none"
-        >
-          <svg
-            className="w-full h-full"
-            viewBox="0 0 400 500"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <motion.rect
-              x="20"
-              y="20"
-              width="360"
-              height="460"
-              rx="8"
-              stroke="url(#goldGradient)"
-              strokeWidth="2"
-              fill="none"
-              initial={{ pathLength: 0 }}
-              animate={{ pathLength: 1 }}
-              transition={{ duration: 2, ease: 'easeInOut' }}
-            />
-            <defs>
-              <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="#C8A45D" />
-                <stop offset="50%" stopColor="#E8D6A5" />
-                <stop offset="100%" stopColor="#C8A45D" />
-              </linearGradient>
-            </defs>
-          </svg>
-        </motion.div>
+      <div className="relative z-10 w-full max-w-4xl mx-auto px-6 sm:px-8 md:px-12 text-center">
+        {/* Ornamental Frame - Responsive */}
+        <div className="relative border-2 border-gold/40 rounded-xl p-8 sm:p-12 md:p-16 lg:p-20">
+          {/* Inner decorative border */}
+          <div className="absolute inset-4 border border-gold/20 rounded-lg pointer-events-none" />
+          
+          {/* Corner decorations */}
+          <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-gold rounded-tl-xl" />
+          <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-gold rounded-tr-xl" />
+          <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-gold rounded-bl-xl" />
+          <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-gold rounded-br-xl" />
 
         {showContent && (
-          <div className="py-16 space-y-8">
+          <div className="relative z-10 space-y-6 sm:space-y-8">
             {/* Ganesh Blessing */}
             <motion.div
               initial={{ opacity: 0, y: -20 }}
@@ -105,11 +80,11 @@ export default function HomePage() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="space-y-2"
             >
-              <p className="font-hindi text-2xl text-gold-light">{blessings.sanskrit}</p>
-              <p className="font-hindi text-sm text-ivory/80 max-w-md mx-auto leading-relaxed">
+              <p className="font-hindi text-lg sm:text-xl md:text-2xl text-gold-light">{blessings.sanskrit}</p>
+              <p className="font-hindi text-xs sm:text-sm text-ivory/80 max-w-md mx-auto leading-relaxed px-4">
                 {blessings.verse1}
               </p>
-              <p className="font-hindi text-sm text-ivory/80 max-w-md mx-auto leading-relaxed">
+              <p className="font-hindi text-xs sm:text-sm text-ivory/80 max-w-md mx-auto leading-relaxed px-4">
                 {blessings.verse2}
               </p>
             </motion.div>
@@ -119,12 +94,12 @@ export default function HomePage() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1, delay: 0.6 }}
-              className="space-y-4"
+              className="space-y-3 sm:space-y-4"
             >
-              <h1 className="font-hindi text-5xl sm:text-6xl md:text-7xl font-bold gradient-text">
+              <h1 className="font-hindi text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold gradient-text px-4">
                 शुभ विवाह
               </h1>
-              <div className="w-24 h-1 bg-gold mx-auto rounded-full" />
+              <div className="w-16 sm:w-24 h-1 bg-gold mx-auto rounded-full" />
             </motion.div>
 
             {/* Invitation Message */}
@@ -132,15 +107,15 @@ export default function HomePage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.9 }}
-              className="space-y-3"
+              className="space-y-2 sm:space-y-3 px-4"
             >
-              <p className="font-hindi text-xl text-ivory/90">
+              <p className="font-hindi text-base sm:text-lg md:text-xl text-ivory/90">
                 {blessings.message}
               </p>
-              <p className="text-ivory/80 font-serif text-lg">
+              <p className="text-ivory/80 font-serif text-sm sm:text-base md:text-lg">
                 Together with our families
               </p>
-              <p className="text-ivory/70 text-base">
+              <p className="text-ivory/70 text-sm sm:text-base">
                 We joyfully invite you to celebrate
               </p>
             </motion.div>
@@ -150,19 +125,19 @@ export default function HomePage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1.2 }}
-              className="space-y-6 py-6"
+              className="space-y-4 sm:space-y-6 py-4 sm:py-6 px-4"
             >
-              <div className="space-y-2">
-                <p className="text-ivory/60 text-sm uppercase tracking-wider">First Celebration</p>
-                <p className="font-serif text-3xl md:text-4xl text-gold-light">
-                  Ekta <span className="text-gold">&</span> Vikas
+              <div className="space-y-1 sm:space-y-2">
+                <p className="text-ivory/60 text-xs sm:text-sm uppercase tracking-wider">First Celebration</p>
+                <p className="font-serif text-2xl sm:text-3xl md:text-4xl text-gold-light">
+                   Ekta <span className="text-gold">&</span> Vikas
                 </p>
               </div>
               
-              <div className="space-y-2">
-                <p className="text-ivory/60 text-sm uppercase tracking-wider">Second Celebration</p>
-                <p className="font-serif text-3xl md:text-4xl text-gold-light">
-                  Bijendra <span className="text-gold">&</span> Priyanka 
+              <div className="space-y-1 sm:space-y-2">
+                <p className="text-ivory/60 text-xs sm:text-sm uppercase tracking-wider">Second Celebration</p>
+                <p className="font-serif text-2xl sm:text-3xl md:text-4xl text-gold-light">
+                   Bijendra<span className="text-gold">&</span> Priyanka 
                 </p>
               </div>
             </motion.div>
@@ -172,10 +147,10 @@ export default function HomePage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1.5 }}
-              className="space-y-2"
+              className="space-y-1 sm:space-y-2 px-4"
             >
-              <p className="font-serif text-2xl text-gold">December 2026</p>
-              <p className="text-ivory/70">Gunti, Behror, Rajasthan</p>
+              <p className="font-serif text-xl sm:text-2xl text-gold">December 2026</p>
+              <p className="text-ivory/70 text-sm sm:text-base">Gunti, Bahroi, Rajasthan</p>
             </motion.div>
 
             {/* CTA Button */}
@@ -183,10 +158,11 @@ export default function HomePage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1.8 }}
+              className="px-4"
             >
               <button
                 onClick={() => navigate('/events')}
-                className="group relative px-12 py-4 bg-gradient-to-r from-gold via-gold-light to-gold text-maroon font-semibold text-lg rounded-full overflow-hidden shadow-luxury hover:shadow-2xl transition-all duration-300 hover:scale-105"
+                className="group relative px-8 sm:px-12 py-3 sm:py-4 bg-gradient-to-r from-gold via-gold-light to-gold text-maroon font-semibold text-base sm:text-lg rounded-full overflow-hidden shadow-luxury hover:shadow-2xl transition-all duration-300 hover:scale-105"
               >
                 <span className="relative z-10">Enter the Wedding Celebration</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-gold-light via-gold to-gold-light opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -194,6 +170,7 @@ export default function HomePage() {
             </motion.div>
           </div>
         )}
+        </div>
 
         {/* Scroll Indicator */}
         <motion.div
