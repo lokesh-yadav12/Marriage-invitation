@@ -236,8 +236,8 @@ export const hostFamily = {
   contact: ['7742657900', '9928518944'],
   residence: 'Gunti, Behror, Behror-Kotputli, Rajasthan',
   invitation: {
-    organizer: 'Dr. H.P. JAIVIK GUNTI',
-    organizerHindi: 'Dr. H.P. जैविक गुन्ती',
+    organizer: 'Lalwala Family',
+    organizerHindi: 'लालवाला परिवार',
   },
 };
 

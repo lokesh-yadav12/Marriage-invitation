@@ -79,10 +79,10 @@ export default function EventsPage() {
             
             <div className="relative z-10">
               <h3 className="font-serif text-3xl font-bold text-maroon mb-3">
-                {wedding.couple.groom.name} <span className="text-gold">&</span> {wedding.couple.bride.name}
+                {wedding.couple.bride.name} <span className="text-gold">&</span> {wedding.couple.groom.name}
               </h3>
               <p className="font-hindi text-xl text-gold">
-                {wedding.couple.groom.nameHindi} <span className="text-maroon">&</span> {wedding.couple.bride.nameHindi}
+                {wedding.couple.bride.nameHindi} <span className="text-maroon">&</span> {wedding.couple.groom.nameHindi}
               </p>
             </div>
           </div>
