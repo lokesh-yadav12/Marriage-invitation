@@ -13,7 +13,7 @@ What to include:
 👫 Aayu. Ekta & Vi. Vikas
 👫 Aayu. Priyanka & Vi. Bijendra
 📅 December 2026
-📍 Gunti, Bahroi, Rajasthan
+📍 Gunti, Behror, Rajasthan
 🏢 Dr HP Jaivik Khad Pvt Ltd
 
 Colors to use:

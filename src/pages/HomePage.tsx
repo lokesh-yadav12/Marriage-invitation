@@ -150,7 +150,7 @@ export default function HomePage() {
               className="space-y-1 sm:space-y-2 px-4"
             >
               <p className="font-serif text-xl sm:text-2xl text-gold">December 2026</p>
-              <p className="text-ivory/70 text-sm sm:text-base">Gunti, Bahroi, Rajasthan</p>
+              <p className="text-ivory/70 text-sm sm:text-base">Gunti, Behror, Rajasthan</p>
             </motion.div>
 
             {/* CTA Button */}

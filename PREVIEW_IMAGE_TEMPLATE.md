@@ -31,7 +31,7 @@
 │    ────────────────────────────────────   │
 │                                            │
 │            December 2026                   │
-│      Gunti, Bahroi, Rajasthan             │
+│      Gunti, Behror, Rajasthan             │
 │                                            │
 │    Dr HP Jaivik Khad Pvt Ltd              │
 │                                            │
@@ -63,7 +63,7 @@
    - Aayu. Ekta & Vi. Vikas
    - Aayu. Priyanka & Vi. Bijendra
    - December 2026
-   - Gunti, Bahroi, Rajasthan
+   - Gunti, Behror, Rajasthan
 5. Download as JPG
 6. Rename to `wedding-preview.jpg`
 

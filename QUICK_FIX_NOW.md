@@ -65,7 +65,7 @@ When you share the link, people will see:
 │  👰 Priyanka & Bijendra   │
 │                            │
 │  📅 December 2026         │
-│  📍 Gunti, Bahroi         │
+│  📍 Gunti, Behror         │
 │  📞 +91 7742657900        │
 │                            │
 │  your-site.vercel.app      │

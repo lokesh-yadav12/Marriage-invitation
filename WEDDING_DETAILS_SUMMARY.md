@@ -12,7 +12,7 @@ The wedding invitation website has been corrected with accurate information from
 - **Bride:** Aayu. Ekta (आयु. एकता)
   - Daughter of: Late Shri Subhash Yadav (स्व. श्री सुभाष यादव)
   - Mother: Shrimati Mukesh Devi (श्रीमती मुकेश देवी)
-  - Residence: Gunti, Bahroi (Raj.)
+  - Residence: Gunti, Behror (Raj.)
 
 - **Groom:** Vi. Vikas (वि. विकास)
   - Son of: Shri Ashok Ji Yadav (श्री अशोक जी यादव)
@@ -39,7 +39,7 @@ The wedding invitation website has been corrected with accurate information from
    - Farewell ceremony for the bride
 
 ### Venue:
-- **Location:** Gunti, Tah. Bahroi, Jila-Karauli-Bahroi (Rajasthan)
+- **Location:** Gunti, Tah. Behror, Jila-Karauli-Behror (Rajasthan)
 
 ---
 
@@ -54,7 +54,7 @@ The wedding invitation website has been corrected with accurate information from
 - **Groom:** Vi. Bijendra (वि. बिजेन्द्र)
   - Son of: Late Shri Subhash Yadav (स्व. श्री सुभाष यादव)
   - Mother: Shrimati Mukesh Devi (श्रीमती मुकेश देवी)
-  - Residence: Gunti, Bahroi (Raj.)
+  - Residence: Gunti, Behror (Raj.)
 
 ### Event Schedule:
 
@@ -80,7 +80,7 @@ The wedding invitation website has been corrected with accurate information from
    - Groom's procession departure
 
 ### Venue:
-- **Location:** Gunti, Tah. Bahroi, Jila-Karauli-Bahroi (Rajasthan)
+- **Location:** Gunti, Tah. Behror, Jila-Karauli-Behror (Rajasthan)
 
 ---
 
@@ -99,7 +99,7 @@ The wedding invitation website has been corrected with accurate information from
 - Mobile: +91 9928518944
 
 **Residence:**
-- Gunti, Tah. Bahroi, Jila-Karauli-Bahroi (Raj.)
+- Gunti, Tah. Behror, Jila-Karauli-Behror (Raj.)
 
 ---
 

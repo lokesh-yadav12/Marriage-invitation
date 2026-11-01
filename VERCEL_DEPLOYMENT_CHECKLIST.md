@@ -21,7 +21,7 @@
 - ✅ Wedding invitation title in Hindi
 - ✅ Both couples' names
 - ✅ Date: December 2026
-- ✅ Location: Gunti, Bahroi, Rajasthan
+- ✅ Location: Gunti, Behror, Rajasthan
 - ✅ Preview image (once you add it)
 
 ---

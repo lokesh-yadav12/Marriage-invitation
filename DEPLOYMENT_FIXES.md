@@ -56,7 +56,7 @@ Added comprehensive **Open Graph meta tags** to `index.html`:
 📝 Title: शुभ विवाह - Royal Indian Wedding Invitation
 📄 Description: Together with our families, we joyfully invite you 
    to celebrate the wedding of Aayu. Ekta & Vi. Vikas, and 
-   Aayu. Priyanka & Vi. Bijendra | December 2026 | Gunti, Bahroi, Rajasthan
+   Aayu. Priyanka & Vi. Bijendra | December 2026 | Gunti, Behror, Rajasthan
 ```
 
 ---
@@ -72,7 +72,7 @@ You need to create a preview image for social media. Here are your options:
    - "शुभ विवाह" in Hindi
    - Both couples' names: "Ekta & Vikas" and "Priyanka & Bijendra"
    - Date: "December 2026"
-   - Location: "Gunti, Bahroi, Rajasthan"
+   - Location: "Gunti, Behror, Rajasthan"
    - Traditional Indian wedding colors (maroon & gold)
 4. Download as `wedding-preview.jpg`
 5. Place in `public/` folder

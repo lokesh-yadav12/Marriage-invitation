@@ -133,12 +133,12 @@ export default defineConfig({
 ### Wedding 1: Vi. Vikas & Aayu. Priyanka
 - **Date:** Tuesday, December 2, 2026
 - **Events:** Haldi (Dec 1), Wedding Ceremony (Dec 2), Reception (Dec 4)
-- **Location:** Gunti, Bahroi, Rajasthan
+- **Location:** Gunti, Behror, Rajasthan
 
 ### Wedding 2: Aayu. Ekta & Vi. Vilas
 - **Date:** Wednesday, December 2, 2026, 6:15 PM
 - **Events:** Bhaat (Dec 1), Baraat Swagat & Maanglik Sanskar (Dec 2), Vidai (Dec 2), Reception Bhaat (Dec 3), Tilak & Baraat Prathan (Dec 4)
-- **Location:** Gunti, Bahroi, Rajasthan
+- **Location:** Gunti, Behror, Rajasthan
 
 ### Host Family
 - Sulataan Singh Yadav (सुलतान सिंह यादव)
