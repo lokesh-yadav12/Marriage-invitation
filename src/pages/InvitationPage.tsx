@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import FloralDecoration from '../components/FloralDecoration';
 import OrnamentalDivider from '../components/OrnamentalDivider';
 import { blessings, hostFamily } from '../data/weddingData';
@@ -216,18 +217,18 @@ export default function InvitationPage() {
           transition={{ duration: 0.8, delay: 1.6 }}
           className="flex flex-col sm:flex-row gap-4 justify-center mt-12"
         >
-          <a
-            href="/events"
+          <Link
+            to="/events"
             className="px-8 py-3 bg-gradient-to-r from-gold to-gold-light text-maroon font-semibold rounded-full hover:shadow-luxury transition-all duration-300 hover:scale-105 text-center"
           >
             View All Events
-          </a>
-          <a
-            href="/rsvp"
+          </Link>
+          <Link
+            to="/rsvp"
             className="px-8 py-3 bg-maroon text-gold border-2 border-gold font-semibold rounded-full hover:bg-maroon-dark transition-all duration-300 hover:scale-105 text-center"
           >
             Confirm Your Presence
-          </a>
+          </Link>
         </motion.div>
       </div>
     </div>

@@ -146,13 +146,13 @@ export default function CountdownTimer({ targetDate, eventName }: CountdownTimer
         </p>
       </div>
 
-      <div className="flex justify-center items-center gap-3 sm:gap-4 md:gap-8">
+      <div className="flex justify-center items-center gap-2 sm:gap-3 md:gap-8 flex-wrap">
         <TimeBlock value={timeLeft.days} label="Days" />
-        <span className="text-gold text-3xl md:text-5xl font-bold self-start mt-8">:</span>
+        <span className="text-gold text-2xl sm:text-3xl md:text-5xl font-bold">:</span>
         <TimeBlock value={timeLeft.hours} label="Hours" />
-        <span className="text-gold text-3xl md:text-5xl font-bold self-start mt-8">:</span>
+        <span className="text-gold text-2xl sm:text-3xl md:text-5xl font-bold">:</span>
         <TimeBlock value={timeLeft.minutes} label="Minutes" />
-        <span className="text-gold text-3xl md:text-5xl font-bold self-start mt-8">:</span>
+        <span className="text-gold text-2xl sm:text-3xl md:text-5xl font-bold">:</span>
         <TimeBlock value={timeLeft.seconds} label="Seconds" />
       </div>
     </div>
